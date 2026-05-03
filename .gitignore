@@ -1,0 +1,29 @@
+# --- Build outputs ---
+wrapper/build/
+tvision-src/build/
+tvision-src/bin/
+
+# --- Delphi outputs ---
+delphi/bin/*.exe
+delphi/bin/*.ppm
+delphi/source/*.dcu
+delphi/examples/**/*.dcu
+delphi/examples/**/__history/
+delphi/examples/**/Win32/
+delphi/examples/**/Win64/
+delphi/examples/**/__recovery/
+delphi/examples/**/*.identcache
+delphi/examples/**/*.local
+
+# --- Cloned upstream sources (huge) ---
+tvision-src/
+
+# --- Logs ---
+logs/
+
+# --- Editor / OS ---
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
